@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="0" column="0"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;azArg[52]&apos; accessed at index 99, which is out of bounds." verbose="Array &apos;azArg[52]&apos; accessed at index 99, which is out of bounds." cwe="788" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="18190" column="49" info="Array index out of bounds"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." verbose="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="10349" column="23" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11709" column="18" info="Calling function &apos;eqp_render&apos;, 1st argument &apos;pArg&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11712" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;z==0&apos; is redundant or there is possible null pointer dereference: z." verbose="Either the condition &apos;z==0&apos; is redundant or there is possible null pointer dereference: z." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="10897" column="31" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="10901" column="10" info="Assuming that condition &apos;z==0&apos; is not redundant"/>
+            <symbol>z</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." verbose="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="11290" column="16" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11708" column="27" info="Calling function &apos;explain_data_delete&apos;, 1st argument &apos;pArg&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11712" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." verbose="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="11291" column="3" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11708" column="27" info="Calling function &apos;explain_data_delete&apos;, 1st argument &apos;pArg&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11712" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." verbose="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="11292" column="3" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11708" column="27" info="Calling function &apos;explain_data_delete&apos;, 1st argument &apos;pArg&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11712" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." verbose="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: p." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="11293" column="3" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11708" column="27" info="Calling function &apos;explain_data_delete&apos;, 1st argument &apos;pArg&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11712" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;zStmtSql&apos; is redundant or there is possible null pointer dereference: zStmtSql." verbose="Either the condition &apos;zStmtSql&apos; is redundant or there is possible null pointer dereference: zStmtSql." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="11628" column="14" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11638" column="40" info="Assuming that condition &apos;zStmtSql&apos; is not redundant"/>
+            <symbol>zStmtSql</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;zLine&apos; is redundant or there is possible null pointer dereference: zLine." verbose="Either the condition &apos;zLine&apos; is redundant or there is possible null pointer dereference: zLine." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="18248" column="10" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="18370" column="36" info="Calling function &apos;line_is_command_terminator&apos;, 1st argument &apos;zLine&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="18358" column="9" info="Assuming that condition &apos;zLine&apos; is not redundant"/>
+            <symbol>zLine</symbol>
+        </error>
+        <error id="nullPointerArithmeticOutOfMemory" severity="error" msg="If memory allocation fails: pointer addition with NULL pointer." verbose="If memory allocation fails: pointer addition with NULL pointer." cwe="682" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="18726" column="21" info="Null pointer addition"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="18724" column="22" info="Assignment &apos;argvToFree=malloc(sizeof(argv[0])*argc*2)&apos;, assigned value is 0"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="18724" column="22" info="Assuming allocation function fails"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: pArg." verbose="Either the condition &apos;pArg&apos; is redundant or there is possible null pointer dereference: pArg." cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="11599" column="17" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11631" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+            <symbol>pArg</symbol>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: p" verbose="Null pointer dereference: p" cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="10349" column="23" info="Dereferencing argument p that is null"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11709" column="17" info="Calling function eqp_render, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11712" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: p" verbose="Null pointer dereference: p" cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="11290" column="16" info="Dereferencing argument p that is null"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11708" column="26" info="Calling function explain_data_delete, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="11712" column="11" info="Assuming that condition &apos;pArg&apos; is not redundant"/>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: zLine" verbose="Null pointer dereference: zLine" cwe="476" file0="repo_1/pdf_viewer/shell.c">
+            <location file="repo_1/pdf_viewer/shell.c" line="18248" column="10" info="Dereferencing argument zLine that is null"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="18370" column="35" info="Calling function line_is_command_terminator, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/shell.c" line="18358" column="9" info="Assuming that condition &apos;zLine&apos; is not redundant"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="0" column="0"/>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;sqlite3BtreeNext&apos;." verbose="Non-pure function: &apos;sqlite3BtreeNext&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="90383" column="53"/>
+            <symbol>sqlite3BtreeNext</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;sqlite3BtreePrevious&apos;." verbose="Non-pure function: &apos;sqlite3BtreePrevious&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="90384" column="53"/>
+            <symbol>sqlite3BtreePrevious</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;sqlite3ExprIsInteger&apos;." verbose="Non-pure function: &apos;sqlite3ExprIsInteger&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="97932" column="11"/>
+            <symbol>sqlite3ExprIsInteger</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;sqlite3GetInt32&apos;." verbose="Non-pure function: &apos;sqlite3GetInt32&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="100892" column="15"/>
+            <symbol>sqlite3GetInt32</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;sqlite3_value_blob&apos;." verbose="Non-pure function: &apos;sqlite3_value_blob&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="116694" column="22"/>
+            <symbol>sqlite3_value_blob</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;sqlite3_value_blob&apos;." verbose="Non-pure function: &apos;sqlite3_value_blob&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="116814" column="18"/>
+            <symbol>sqlite3_value_blob</symbol>
+        </error>
+        <error id="assignmentInAssert" severity="warning" msg="Assert statement modifies &apos;x&apos;." verbose="Variable &apos;x&apos; is modified inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="163066" column="38"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="assertWithSideEffect" severity="warning" msg="Assert statement calls a function which may have desired side effects: &apos;va_arg&apos;." verbose="Non-pure function: &apos;va_arg&apos; is called inside assert statement. Assert statements are removed from release builds so the code inside assert statement is not executed. If the code is needed also in release builds, this is a bug." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="163066" column="40"/>
+            <symbol>va_arg</symbol>
+        </error>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning pointer to local variable &apos;standin&apos; that will be invalid when returning." verbose="Returning pointer to local variable &apos;standin&apos; that will be invalid when returning." cwe="562" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="128048" column="10"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="128008" column="10" info="Variable created here."/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="128041" column="17" info="Assuming condition is false"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="128012" column="12" info="Address of variable taken here."/>
+        </error>
+        <error id="autoVariables" severity="error" msg="Address of local auto-variable assigned to a function parameter." verbose="Dangerous assignment - the function parameter is assigned the address of a local auto-variable. Local auto-variables are reserved from the stack which is freed when the function ends. So the pointer to a local variable is invalid after the function ends." cwe="562" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="128889" column="7"/>
+        </error>
+        <error id="autoVariables" severity="error" msg="Address of local auto-variable assigned to a function parameter." verbose="Dangerous assignment - the function parameter is assigned the address of a local auto-variable. Local auto-variables are reserved from the stack which is freed when the function ends. So the pointer to a local variable is invalid after the function ends." cwe="562" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="134829" column="3"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;pCArray-&gt;apEnd[6]&apos; accessed at index 6, which is out of bounds." verbose="Array &apos;pCArray-&gt;apEnd[6]&apos; accessed at index 6, which is out of bounds." cwe="788" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="71042" column="27" info="Array index out of bounds"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="71041" column="3" info="After for loop, k has value 6"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;pCArray-&gt;apEnd[6]&apos; accessed at index 6, which is out of bounds." verbose="Array &apos;pCArray-&gt;apEnd[6]&apos; accessed at index 6, which is out of bounds." cwe="788" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="71126" column="24" info="Array index out of bounds"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="71125" column="3" info="After for loop, k has value 6"/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of variable &apos;iCol&apos; might be accessed at non-zero index." verbose="The address of variable &apos;iCol&apos; might be accessed at non-zero index." cwe="758" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="118634" column="16"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="118631" column="15" info="Address of variable taken here."/>
+        </error>
+        <error id="objectIndex" severity="warning" msg="The address of variable &apos;iCol&apos; might be accessed at non-zero index." verbose="The address of variable &apos;iCol&apos; might be accessed at non-zero index." cwe="758" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="118635" column="14"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="118631" column="15" info="Address of variable taken here."/>
+        </error>
+        <error id="identicalInnerCondition" severity="warning" msg="Identical inner &apos;if&apos; condition is always true." verbose="Identical inner &apos;if&apos; condition is always true (outer condition is &apos;rc==0&apos; and inner condition is &apos;rc==0&apos;)." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="57742" column="15" info="identical inner condition: rc==0"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="57733" column="11" info="outer condition: rc==0"/>
+        </error>
+        <error id="identicalConditionAfterEarlyExit" severity="warning" msg="Identical condition and return expression &apos;rc&apos;, return value is always 0" verbose="Identical condition and return expression &apos;rc&apos;, return value is always 0" cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="61867" column="10" info="Returning identical expression &apos;rc&apos;"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="61819" column="7" info="If condition &apos;rc&apos; is true, the function will return/exit"/>
+        </error>
+        <error id="identicalInnerCondition" severity="warning" msg="Identical inner &apos;return&apos; condition is always true." verbose="Identical inner &apos;return&apos; condition is always true (outer condition is &apos;pMem-&gt;flags&amp;(0x0004|0x0008|0x0020)&apos; and inner condition is &apos;pMem-&gt;flags&amp;(0x0004|0x0008|0x0020)&apos;)." cwe="398" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="85234" column="24" info="identical inner condition: pMem-&gt;flags&amp;(0x0004|0x0008|0x0020)"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="85230" column="19" info="outer condition: pMem-&gt;flags&amp;(0x0004|0x0008|0x0020)"/>
+        </error>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;p&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;p&apos; nulled but not freed upon failure" cwe="401" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="23581" column="3"/>
+            <symbol>p</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;ppStmt==0&apos; is redundant or there is possible null pointer dereference: ppStmt." verbose="Either the condition &apos;ppStmt==0&apos; is redundant or there is possible null pointer dereference: ppStmt." cwe="476" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127637" column="4" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127754" column="20" info="Calling function &apos;sqlite3LockAndPrepare&apos;, 6th argument &apos;ppStmt&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127755" column="34" info="Assuming that condition &apos;ppStmt==0&apos; is not redundant"/>
+            <symbol>ppStmt</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;ppStmt==0&apos; is redundant or there is possible null pointer dereference: ppStmt." verbose="Either the condition &apos;ppStmt==0&apos; is redundant or there is possible null pointer dereference: ppStmt." cwe="476" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127783" column="4" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127857" column="10" info="Calling function &apos;sqlite3Prepare16&apos;, 5th argument &apos;ppStmt&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127858" column="34" info="Assuming that condition &apos;ppStmt==0&apos; is not redundant"/>
+            <symbol>ppStmt</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;pSubst-&gt;pEList!=0&apos; is redundant or there is possible null pointer dereference: pSubst-&gt;pEList." verbose="Either the condition &apos;pSubst-&gt;pEList!=0&apos; is redundant or there is possible null pointer dereference: pSubst-&gt;pEList." cwe="476" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="131349" column="27" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="131351" column="29" info="Assuming that condition &apos;pSubst-&gt;pEList!=0&apos; is not redundant"/>
+            <symbol>pSubst-&gt;pEList</symbol>
+        </error>
+        <error id="nullPointerArithmeticRedundantCheck" severity="warning" msg="Either the condition &apos;!pMaster&apos; is redundant or there is pointer arithmetic with NULL pointer." verbose="Either the condition &apos;!pMaster&apos; is redundant or there is pointer arithmetic with NULL pointer." cwe="682" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="53976" column="47" info="Null pointer addition"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="53977" column="7" info="Assuming that condition &apos;!pMaster&apos; is not redundant"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;zExtra&apos; used instead of size of its data." verbose="Size of pointer &apos;zExtra&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*zExtra)&apos;." cwe="467" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="110963" column="10"/>
+        </error>
+        <error id="integerOverflowCond" severity="warning" msg="Either the condition &apos;nTabList==0&apos; is redundant or there is signed integer overflow for expression &apos;nTabList-1&apos;." verbose="Either the condition &apos;nTabList==0&apos; is redundant or there is signed integer overflow for expression &apos;nTabList-1&apos;." cwe="190" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="148520" column="16" info="Integer overflow"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="148561" column="15" info="Assuming that condition &apos;nTabList==0&apos; is not redundant"/>
+        </error>
+        <error id="signConversionCond" severity="warning" msg="Expression &apos;nTabList-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." verbose="Expression &apos;nTabList-1&apos; can have a negative value. That is converted to an unsigned value and used in an unsigned calculation." cwe="195" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="148520" column="16" info="Negative value is converted to an unsigned value"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="148561" column="15" info="Assuming that condition &apos;nTabList==0&apos; is not redundant"/>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *pp" verbose="Uninitialized variable: *pp" cwe="457" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="50133" column="21"/>
+            <symbol>*pp</symbol>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="36926" column="8"/>
+        </error>
+        <error id="ctunullpointer" severity="error" msg="Null pointer dereference: pVfs" verbose="Null pointer dereference: pVfs" cwe="476" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="22998" column="8" info="Dereferencing argument pVfs that is null"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="96481" column="12" info="Calling function sqlite3OsOpen, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="96503" column="21" info="Calling function sqlite3JournalOpen, 1st argument is null"/>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: ppStmt" verbose="Null pointer dereference: ppStmt" cwe="476" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127637" column="4" info="Dereferencing argument ppStmt that is null"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127714" column="29" info="Calling function sqlite3LockAndPrepare, 6th argument is null"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127715" column="34" info="Assuming that condition &apos;ppStmt==0&apos; is not redundant"/>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: ppStmt" verbose="Null pointer dereference: ppStmt" cwe="476" file0="repo_1/pdf_viewer/sqlite3.c">
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127783" column="4" info="Dereferencing argument ppStmt that is null"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127830" column="24" info="Calling function sqlite3Prepare16, 5th argument is null"/>
+            <location file="repo_1/pdf_viewer/sqlite3.c" line="127831" column="34" info="Assuming that condition &apos;ppStmt==0&apos; is not redundant"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/synctex/synctex_parser.c">
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="0" column="0"/>
+        </error>
+        <error id="memleakOnRealloc" severity="error" msg="Common realloc mistake: &apos;string&apos; nulled but not freed upon failure" verbose="Common realloc mistake: &apos;string&apos; nulled but not freed upon failure" cwe="401" file0="repo_1/pdf_viewer/synctex/synctex_parser.c">
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="4211" column="14"/>
+            <symbol>string</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;parent&apos; is redundant or there is possible null pointer dereference: node." verbose="Either the condition &apos;parent&apos; is redundant or there is possible null pointer dereference: node." cwe="476" file0="repo_1/pdf_viewer/synctex/synctex_parser.c">
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="452" column="1" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="5822" column="47" info="Calling function &apos;__synctex_tree_sibling&apos;, 1st argument &apos;parent&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="5820" column="29" info="Assuming that condition &apos;parent&apos; is not redundant"/>
+            <symbol>node</symbol>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: node" verbose="Null pointer dereference: node" cwe="476" file0="repo_1/pdf_viewer/synctex/synctex_parser.c">
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="452" column="1" info="Dereferencing argument node that is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="452" column="1" info="Calling function __synctex_tree_sibling, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="5822" column="46" info="Calling function __synctex_tree_sibling, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="5820" column="29" info="Assuming that condition &apos;parent&apos; is not redundant"/>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: node" verbose="Null pointer dereference: node" cwe="476" file0="repo_1/pdf_viewer/synctex/synctex_parser.c">
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="462" column="1" info="Dereferencing argument node that is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="462" column="1" info="Calling function _synctex_tree_has_parent, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="2817" column="49" info="Calling function _synctex_tree_has_parent, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="2822" column="32" info="Assuming that condition &apos;N&apos; is not redundant"/>
+        </error>
+        <error id="ctunullpointer" severity="warning" msg="Null pointer dereference: node" verbose="Null pointer dereference: node" cwe="476" file0="repo_1/pdf_viewer/synctex/synctex_parser.c">
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="475" column="1" info="Dereferencing argument node that is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="475" column="1" info="Calling function _synctex_tree_has_target, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="475" column="1" info="Calling function _synctex_tree_has_target, 1st argument is null"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="2917" column="50" info="Calling function &apos;_synctex_tree_target&apos;, 1st argument &apos;node&apos; value is 0"/>
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser.c" line="2920" column="16" info="Assuming that condition &apos;node&apos; is not redundant"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/synctex/synctex_parser_utils.c">
+            <location file="repo_1/pdf_viewer/synctex/synctex_parser_utils.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/config.cpp">
+            <location file="repo_1/pdf_viewer/config.cpp" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/database.cpp">
+            <location file="repo_1/pdf_viewer/database.cpp" line="0" column="0"/>
+        </error>
+        <error id="funcArgOrderDifferent" severity="warning" msg="Function &apos;insert_portal&apos; argument order different: declaration &apos;src_checksum, dst_checksum, dst_offset_y, dst_offset_x, dst_zoom_level, src_offset_y&apos; definition &apos;src_document_path, dst_document_path, dst_offset_x, dst_offset_y, dst_zoom_level, src_offset_y&apos;" verbose="Function &apos;insert_portal&apos; argument order different: declaration &apos;src_checksum, dst_checksum, dst_offset_y, dst_offset_x, dst_zoom_level, src_offset_y&apos; definition &apos;src_document_path, dst_document_path, dst_offset_x, dst_offset_y, dst_zoom_level, src_offset_y&apos;" cwe="683" file0="repo_1/pdf_viewer/database.cpp">
+            <location file="repo_1/pdf_viewer/database.cpp" line="520" column="56"/>
+            <location file="repo_1/pdf_viewer/database.h" line="32" column="40"/>
+            <symbol>insert_portal</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/document.cpp">
+            <location file="repo_1/pdf_viewer/document.cpp" line="0" column="0"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;char_begin&apos; is redundant or there is possible null pointer dereference: char_begin." verbose="Either the condition &apos;char_begin&apos; is redundant or there is possible null pointer dereference: char_begin." cwe="476" file0="repo_1/pdf_viewer/document.cpp">
+            <location file="repo_1/pdf_viewer/document.cpp" line="1440" column="11" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/document.cpp" line="1444" column="7" info="Assuming that condition &apos;char_begin&apos; is not redundant"/>
+            <symbol>char_begin</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/document_view.cpp">
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="0" column="0"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="repo_1/pdf_viewer/document_view.cpp">
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="350" column="2"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor." verbose="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/document_view.cpp">
+            <location file="repo_1/pdf_viewer/rapidfuzz_amalgamated.hpp" line="8177" column="5"/>
+            <symbol>CharSet::m_val</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: res.book_state" verbose="Uninitialized variable: res.book_state" cwe="457" file0="repo_1/pdf_viewer/document_view.cpp">
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="64" column="9"/>
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="58" column="6" info="Assuming condition is false"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="uninitvar" severity="warning" msg="Uninitialized variable: res.book_state" verbose="Uninitialized variable: res.book_state" cwe="457" file0="repo_1/pdf_viewer/document_view.cpp">
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="76" column="9"/>
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="70" column="6" info="Assuming condition is false"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: res.book_state" verbose="Uninitialized struct member: res.book_state" cwe="457" file0="repo_1/pdf_viewer/document_view.cpp">
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="64" column="9"/>
+            <symbol>res.book_state</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: res.book_state" verbose="Uninitialized struct member: res.book_state" cwe="457" file0="repo_1/pdf_viewer/document_view.cpp">
+            <location file="repo_1/pdf_viewer/document_view.cpp" line="76" column="9"/>
+            <symbol>res.book_state</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/input.cpp">
+            <location file="repo_1/pdf_viewer/input.cpp" line="0" column="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor." verbose="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/input.cpp">
+            <location file="repo_1/pdf_viewer/rapidfuzz_amalgamated.hpp" line="8177" column="5"/>
+            <symbol>CharSet::m_val</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;LazyCommand::widget&apos; is not initialized in the constructor." verbose="Member variable &apos;LazyCommand::widget&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/input.cpp">
+            <location file="repo_1/pdf_viewer/input.cpp" line="2052" column="2"/>
+            <symbol>LazyCommand::widget</symbol>
+        </error>
+        <error id="duplInheritedMember" severity="warning" msg="The class &apos;LazyCommand&apos; defines member variable with name &apos;widget&apos; also defined in its parent class &apos;Command&apos;." verbose="The class &apos;LazyCommand&apos; defines member variable with name &apos;widget&apos; also defined in its parent class &apos;Command&apos;." cwe="398" file0="repo_1/pdf_viewer/input.cpp">
+            <location file="repo_1/pdf_viewer/input.cpp" line="2007" column="14" info="Derived variable &apos;LazyCommand::widget&apos;"/>
+            <location file="repo_1/pdf_viewer/input.h" line="35" column="14" info="Parent variable &apos;Command::widget&apos;"/>
+            <symbol>LazyCommand</symbol>
+            <symbol>widget</symbol>
+            <symbol>Command</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variables: res.command, res.defining_file_line" verbose="Uninitialized variables: res.command, res.defining_file_line" cwe="457" file0="repo_1/pdf_viewer/input.cpp">
+            <location file="repo_1/pdf_viewer/input.cpp" line="2413" column="10"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: res.command" verbose="Uninitialized struct member: res.command" cwe="457" file0="repo_1/pdf_viewer/input.cpp">
+            <location file="repo_1/pdf_viewer/input.cpp" line="2413" column="10"/>
+            <symbol>res.command</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: res.defining_file_line" verbose="Uninitialized struct member: res.defining_file_line" cwe="457" file0="repo_1/pdf_viewer/input.cpp">
+            <location file="repo_1/pdf_viewer/input.cpp" line="2413" column="10"/>
+            <symbol>res.defining_file_line</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." file0="repo_1/pdf_viewer/main.cpp">
+            <location file="repo_1/pdf_viewer/RunGuard.h" line="67" column="9"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/main_widget.cpp">
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="0" column="0"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="repo_1/pdf_viewer/main_widget.cpp">
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="3909" column="2"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor." verbose="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/main_widget.cpp">
+            <location file="repo_1/pdf_viewer/rapidfuzz_amalgamated.hpp" line="8177" column="5"/>
+            <symbol>CharSet::m_val</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;link_owner&apos; is redundant or there is possible null pointer dereference: link_owner." verbose="Either the condition &apos;link_owner&apos; is redundant or there is possible null pointer dereference: link_owner." cwe="476" file0="repo_1/pdf_viewer/main_widget.cpp">
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="1007" column="31" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="1003" column="9" info="Assuming that condition &apos;link_owner&apos; is not redundant"/>
+            <symbol>link_owner</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;main_document_view&apos; is redundant or there is possible null pointer dereference: main_document_view." verbose="Either the condition &apos;main_document_view&apos; is redundant or there is possible null pointer dereference: main_document_view." cwe="476" file0="repo_1/pdf_viewer/main_widget.cpp">
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="1056" column="9" info="Null pointer dereference"/>
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="1052" column="9" info="Assuming that condition &apos;main_document_view&apos; is not redundant"/>
+            <symbol>main_document_view</symbol>
+        </error>
+        <error id="accessMoved" severity="warning" msg="Access of moved variable &apos;pending_command_instance&apos;." verbose="Access of moved variable &apos;pending_command_instance&apos;." cwe="672" file0="repo_1/pdf_viewer/main_widget.cpp">
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="3500" column="17" info="Access of moved variable &apos;pending_command_instance&apos;."/>
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="3494" column="22" info="Calling std::move(pending_command_instance)"/>
+            <symbol>pending_command_instance</symbol>
+        </error>
+        <error id="containerOutOfBounds" severity="error" msg="Out of bounds access in expression &apos;all_word_chars[i]&apos; because &apos;all_word_chars&apos; is empty." verbose="Out of bounds access in expression &apos;all_word_chars[i]&apos; because &apos;all_word_chars&apos; is empty." cwe="398" file0="repo_1/pdf_viewer/main_widget.cpp">
+            <location file="repo_1/pdf_viewer/main_widget.cpp" line="2703" column="60" info="Access out of bounds"/>
+            <symbol>all_word_chars</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/new_file_checker.cpp">
+            <location file="repo_1/pdf_viewer/new_file_checker.cpp" line="0" column="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor." verbose="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/new_file_checker.cpp">
+            <location file="repo_1/pdf_viewer/rapidfuzz_amalgamated.hpp" line="8177" column="5"/>
+            <symbol>CharSet::m_val</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/pdf_renderer.cpp">
+            <location file="repo_1/pdf_viewer/pdf_renderer.cpp" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="0" column="0"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;CUSTOM_BACKGROUND_COLOR[3]&apos; accessed at index 3, which is out of bounds." verbose="Array &apos;CUSTOM_BACKGROUND_COLOR[3]&apos; accessed at index 3, which is out of bounds." cwe="788" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="1914" column="26" info="Array index out of bounds"/>
+        </error>
+        <error id="arrayIndexOutOfBounds" severity="error" msg="Array &apos;CUSTOM_TEXT_COLOR[3]&apos; accessed at index 3, which is out of bounds." verbose="Array &apos;CUSTOM_TEXT_COLOR[3]&apos; accessed at index 3, which is out of bounds." cwe="788" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="1914" column="48" info="Array index out of bounds"/>
+        </error>
+        <error id="missingReturn" severity="error" msg="Found an exit path from function with non-void return type that has missing return statement" verbose="Found an exit path from function with non-void return type that has missing return statement" cwe="758" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="1423" column="2"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor." verbose="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/rapidfuzz_amalgamated.hpp" line="8177" column="5"/>
+            <symbol>CharSet::m_val</symbol>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;PdfViewOpenGLWidget::is_searching&apos; is not initialized in the constructor." verbose="Member variable &apos;PdfViewOpenGLWidget::is_searching&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="391" column="22"/>
+            <symbol>PdfViewOpenGLWidget::is_searching</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: res" verbose="Uninitialized variable: res" cwe="457" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="1763" column="10"/>
+            <symbol>res</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: res.x" verbose="Uninitialized struct member: res.x" cwe="457" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="1763" column="10"/>
+            <symbol>res.x</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: res.y" verbose="Uninitialized struct member: res.y" cwe="457" file0="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp">
+            <location file="repo_1/pdf_viewer/pdf_view_opengl_widget.cpp" line="1763" column="10"/>
+            <symbol>res.y</symbol>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If slots is a macro then please configure it." file0="repo_1/pdf_viewer/RunGuard.cpp">
+            <location file="repo_1/pdf_viewer/RunGuard.h" line="67" column="9"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/ui.cpp">
+            <location file="repo_1/pdf_viewer/ui.cpp" line="0" column="0"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor." verbose="Member variable &apos;CharSet::m_val&apos; is not initialized in the constructor. Member variables of native types, pointers, or references are left uninitialized when the class is instantiated. That may cause bugs or undefined behavior." cwe="398" file0="repo_1/pdf_viewer/ui.cpp">
+            <location file="repo_1/pdf_viewer/rapidfuzz_amalgamated.hpp" line="8177" column="5"/>
+            <symbol>CharSet::m_val</symbol>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_1/pdf_viewer/utils.cpp">
+            <location file="repo_1/pdf_viewer/utils.cpp" line="0" column="0"/>
+        </error>
+        <error id="dangerousTypeCast" severity="warning" msg="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" verbose="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" cwe="398" file0="repo_1/pdf_viewer/utils.cpp">
+            <location file="repo_1/pdf_viewer/utils.cpp" line="196" column="2"/>
+        </error>
+        <error id="dangerousTypeCast" severity="warning" msg="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" verbose="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" cwe="398" file0="repo_1/pdf_viewer/utils.cpp">
+            <location file="repo_1/pdf_viewer/utils.cpp" line="197" column="2"/>
+        </error>
+        <error id="dangerousTypeCast" severity="warning" msg="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" verbose="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" cwe="398" file0="repo_1/pdf_viewer/utils.cpp">
+            <location file="repo_1/pdf_viewer/utils.cpp" line="198" column="2"/>
+        </error>
+        <error id="dangerousTypeCast" severity="warning" msg="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" verbose="Potentially invalid type conversion in old-style C cast, clarify/fix with C++ cast" cwe="398" file0="repo_1/pdf_viewer/utils.cpp">
+            <location file="repo_1/pdf_viewer/utils.cpp" line="199" column="2"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/book.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;std::string&apos; is invalid C code." verbose="Code &apos;std::string&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/checksum.h">
+            <location file="repo_1/pdf_viewer/checksum.h" line="10" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/config.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/coordinates.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/database.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/document.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/document_view.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;namespacefts{&apos; is invalid C code." verbose="Code &apos;namespacefts{&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/fts_fuzzy_match.h">
+            <location file="repo_1/pdf_viewer/fts_fuzzy_match.h" line="41" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/input.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/main_widget.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/new_file_checker.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;classOpenWithApplication:&apos; is invalid C code." verbose="Code &apos;classOpenWithApplication:&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/OpenWithApplication.h">
+            <location file="repo_1/pdf_viewer/OpenWithApplication.h" line="7" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/path.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/pdf_renderer.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/pdf_view_opengl_widget.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;classRunGuard:&apos; is invalid C code." verbose="Code &apos;classRunGuard:&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/RunGuard.h">
+            <location file="repo_1/pdf_viewer/RunGuard.h" line="52" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;namespacerapidfuzz::&apos; is invalid C code." verbose="Code &apos;namespacerapidfuzz::&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/ui.h">
+            <location file="repo_1/pdf_viewer/rapidfuzz_amalgamated.hpp" line="27" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;namespaceutf8{&apos; is invalid C code." verbose="Code &apos;namespaceutf8{&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/utf8.h">
+            <location file="repo_1/pdf_viewer/utf8/core.h" line="33" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;template&lt;...&apos; is invalid C code." verbose="Code &apos;template&lt;...&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/utils.h">
+            <location file="repo_1/pdf_viewer/coordinates.h" line="34" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;namespaceutf8{&apos; is invalid C code." verbose="Code &apos;namespaceutf8{&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/utf8/checked.h">
+            <location file="repo_1/pdf_viewer/utf8/core.h" line="33" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;namespaceutf8{&apos; is invalid C code." verbose="Code &apos;namespaceutf8{&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/utf8/core.h">
+            <location file="repo_1/pdf_viewer/utf8/core.h" line="33" column="1"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="Code &apos;namespaceutf8{&apos; is invalid C code." verbose="Code &apos;namespaceutf8{&apos; is invalid C code.: Use --std, -x or --language to enforce C++. Or --cpp-header-probe to identify C++ headers via the Emacs marker." file0="repo_1/pdf_viewer/utf8/unchecked.h">
+            <location file="repo_1/pdf_viewer/utf8/core.h" line="33" column="1"/>
+        </error>
+    </errors>
+</results>
+<results>
+</results>

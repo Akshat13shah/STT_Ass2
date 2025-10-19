@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/doc/github_commits.c">
+            <location file="repo_2/doc/github_commits.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If JSON_INTEGER_FORMAT is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If JSON_INTEGER_FORMAT is a macro then please configure it." file0="repo_2/examples/simple_parse.c">
+            <location file="repo_2/examples/simple_parse.c" line="119" column="32"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/src/dtoa.c">
+            <location file="repo_2/src/dtoa.c" line="0" column="0"/>
+        </error>
+        <error id="nullPointerArithmetic" severity="error" msg="Pointer addition with NULL pointer." verbose="Pointer addition with NULL pointer." cwe="682" file0="repo_2/src/dtoa.c">
+            <location file="repo_2/src/dtoa.c" line="4945" column="10" info="Null pointer addition"/>
+            <location file="repo_2/src/dtoa.c" line="4944" column="8" info="Assignment &apos;rv=0&apos;, assigned value is 0"/>
+        </error>
+        <error id="shiftTooManyBitsSigned" severity="warning" msg="Shifting signed 32-bit value by 31 bits is undefined behaviour. See condition at line 3467." verbose="Shifting signed 32-bit value by 31 bits is undefined behaviour. See condition at line 3467." cwe="758" file0="repo_2/src/dtoa.c">
+            <location file="repo_2/src/dtoa.c" line="3468" column="26" info="Shift"/>
+            <location file="repo_2/src/dtoa.c" line="3467" column="10" info="Assuming that condition &apos;i&lt;=31&apos; is not redundant"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/src/dump.c">
+            <location file="repo_2/src/dump.c" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="repo_2/src/dump.c">
+            <location file="repo_2/src/dump.c" line="167" column="21"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="repo_2/src/error.c">
+            <location file="repo_2/src/error.c" line="56" column="5"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/src/load.c">
+            <location file="repo_2/src/load.c" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="repo_2/src/load.c">
+            <location file="repo_2/src/load.c" line="112" column="17"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/src/pack_unpack.c">
+            <location file="repo_2/src/pack_unpack.c" line="0" column="0"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/src/strconv.c">
+            <location file="repo_2/src/strconv.c" line="0" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="repo_2/src/strconv.c">
+            <location file="repo_2/src/strconv.c" line="193" column="11"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/src/utf.c">
+            <location file="repo_2/src/utf.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/src/value.c">
+            <location file="repo_2/src/value.c" line="0" column="0"/>
+        </error>
+        <error id="va_list_usedBeforeStarted" severity="error" msg="va_list &apos;aq&apos; used before va_start() was called." verbose="va_list &apos;aq&apos; used before va_start() was called." cwe="664" file0="repo_2/src/value.c">
+            <location file="repo_2/src/value.c" line="841" column="5"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="repo_2/src/value.c">
+            <location file="repo_2/src/value.c" line="49" column="22"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="repo_2/src/value.c">
+            <location file="repo_2/src/value.c" line="843" column="14"/>
+        </error>
+        <error id="toomanyconfigs" severity="information" msg="Too many #ifdef configurations - cppcheck only checks 12 configurations. Use --force to check all configurations. For more details, use --enable=information." verbose="The checking of the file will be interrupted because there are too many #ifdef configurations. Checking of all #ifdef configurations can be forced by --force command line option or from GUI preferences. However that may increase the checking time. For more details, use --enable=information." cwe="398"/>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/bin/json_process.c">
+            <location file="repo_2/test/bin/json_process.c" line="0" column="0"/>
+        </error>
+        <error id="nullPointerOutOfMemory" severity="warning" msg="If memory allocation fails, then there is a possible null pointer dereference: buf" verbose="If memory allocation fails, then there is a possible null pointer dereference: buf" cwe="476" file0="repo_2/test/bin/json_process.c">
+            <location file="repo_2/test/bin/json_process.c" line="73" column="17" info="Null pointer dereference"/>
+            <location file="repo_2/test/bin/json_process.c" line="72" column="17" info="Assignment &apos;buf=malloc(fsize+1)&apos;, assigned value is 0"/>
+            <location file="repo_2/test/bin/json_process.c" line="72" column="17" info="Assuming allocation function fails"/>
+            <symbol>buf</symbol>
+        </error>
+        <error id="nullPointerOutOfMemory" severity="warning" msg="If memory allocation fails, then there is a possible null pointer dereference: buf" verbose="If memory allocation fails, then there is a possible null pointer dereference: buf" cwe="476" file0="repo_2/test/bin/json_process.c">
+            <location file="repo_2/test/bin/json_process.c" line="76" column="5" info="Null pointer dereference"/>
+            <location file="repo_2/test/bin/json_process.c" line="74" column="13" info="Assuming condition is false"/>
+            <location file="repo_2/test/bin/json_process.c" line="72" column="17" info="Assignment &apos;buf=malloc(fsize+1)&apos;, assigned value is 0"/>
+            <location file="repo_2/test/bin/json_process.c" line="72" column="17" info="Assuming allocation function fails"/>
+            <symbol>buf</symbol>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_array.c">
+            <location file="repo_2/test/suites/api/test_array.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_chaos.c">
+            <location file="repo_2/test/suites/api/test_chaos.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_chaos_realloc.c">
+            <location file="repo_2/test/suites/api/test_chaos_realloc.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_copy.c">
+            <location file="repo_2/test/suites/api/test_copy.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_load.c">
+            <location file="repo_2/test/suites/api/test_load.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_load_callback.c">
+            <location file="repo_2/test/suites/api/test_load_callback.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_number.c">
+            <location file="repo_2/test/suites/api/test_number.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If json_object_foreach is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If json_object_foreach is a macro then please configure it." file0="repo_2/test/suites/api/test_object.c">
+            <location file="repo_2/test/suites/api/test_object.c" line="622" column="5"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_pack.c">
+            <location file="repo_2/test/suites/api/test_pack.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+        <error id="normalCheckLevelMaxBranches" severity="information" msg="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." verbose="Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches." file0="repo_2/test/suites/api/test_unpack.c">
+            <location file="repo_2/test/suites/api/test_unpack.c" line="0" column="0"/>
+        </error>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.18.0"/>
+    <errors>
+    </errors>
+</results>
+<results>
+</results>
